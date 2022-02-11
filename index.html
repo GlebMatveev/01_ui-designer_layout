@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Novik - UX | UI designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gilroy.css">
+</head>
+<body>
+
+    <!-- :: Mobile Menu -->
+    <input type="checkbox" id="menu-toggle"/>
+
+    <nav class="mobile-menu">
+        <ul class="mobile-menu__left-side">
+            <li><a href="#header" class="mobile-menu__menu-link">Home</a></li>
+            <li><a href="#about" class="mobile-menu__menu-link">About me</a></li>
+            <li><a href="#skills" class="mobile-menu__menu-link">Skills</a></li>
+            <li><a href="#portfolio" class="mobile-menu__menu-link">Portfolio</a></li>
+            <li><a href="#contacts" class="mobile-menu__menu-link">Contacts</a></li>
+        </ul>
+
+        <div class="mobile-menu__right-side">
+            <label for="menu-toggle">
+                <img class="mobile-menu__cross" src="img/slider/cross.svg" alt="Close Button">
+            </label>
+
+            <div class="mobile-menu__lang">
+                <a href="#" class="mobile-menu__lang-link">RU</a>
+                <a href="#" class="mobile-menu__lang-link">ENG</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- :: Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <ul class="header-menu">
+                <li><a class="header-menu__item header-menu__item_active" href="#header">Home</a></li>
+                <li><a class="header-menu__item" href="#about">About me</a></li>
+                <li><a class="header-menu__item" href="#skills">Skills</a></li>
+                <li><a class="header-menu__item" href="#portfolio">Portfolio</a></li>
+                <li><a class="header-menu__item" href="#contacts">Contacts</a></li>
+            </ul>
+
+            <hr class="header-delimiter">
+
+            <div class="header-topbar">
+                <div class="header-topbar__desktop">
+                    <h1 class="header-topbar__title">Denis<br>Novik</h1>
+                    <p class="header-topbar__description">UX | UI designer<br>24 years old, Minsk</p>
+                    <div class="header-topbar__lang">
+                        <a class="header-topbar__link" href="#">RU</a>
+                        <a class="header-topbar__link header-topbar__link_active" href="#">ENG</a>
+                    </div>
+                </div>
+
+                <label class="header-topbar__mobile" for="menu-toggle">
+                    <img class="header-topbar__hamburger" src="img/slider/hamburger.svg" alt="Mobile menu">
+                </label>            
+            </div>
+
+            <div class="header-slider">
+                <img class="header-slider__desktop" src="img/slider/slider-01.jpg" alt="Main Slider">
+                <img class="header-slider__mobile" src="img/slider/slider-mobile.jpg" alt="Mobile Slider">
+            </div>
+        </div>
+    </header>
+
+
+    <!-- :: About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="about-title">About me</h2>
+            <div class="about-description">
+                <p class="about-description__item">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
+                <p class="about-description__item">I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+                <p class="about-description__item">Ready to implement excellent projects<br>with wonderful people.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- :: Skills -->
+    <section class="skills container" id="skills">
+
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills-description">I work in such programs as</p>
+
+        <div class="skills-card">
+            <div class="skills-card__item">
+                <img class="skills-card__img" src="img/skills/program-01.png" alt="Adobe Photoshop">
+                <h3 class="skills-card__subtitle">Adobe<br>Photoshop</h3>
+                <img class="skills-card__stars" src="img/skills/stars-4.png" alt="Four Stars">
+            </div>
+            <div class="skills-card__item">
+                <img class="skills-card__img" src="img/skills/program-02.png" alt="Adobe Illustrator">
+                <h3 class="skills-card__subtitle">Adobe<br>Illustrator</h3>
+                <img class="skills-card__stars" src="img/skills/stars-3.png" alt="Three Stars">
+            </div>
+            <div class="skills-card__item">
+                <img class="skills-card__img" src="img/skills/program-03.png" alt="Adobe After Effects">
+                <h3 class="skills-card__subtitle">Adobe<br>After Effects</h3>
+                <img class="skills-card__stars" src="img/skills/stars-4.png" alt="Four Stars">
+            </div>
+            <div class="skills-card__item">
+                <img class="skills-card__img" src="img/skills/program-04.png" alt="Figma">
+                <h3 class="skills-card__subtitle">Figma</h3>
+                <img class="skills-card__stars" src="img/skills/stars-4.png" alt="Four Stars">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- :: Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+
+            <h2 class="portfolio-title">Portfolio</h2>
+
+            <div class="portfolio-card">
+                <img class="portfolio-card__img" src="img/portfolio/portfolio-01.jpg" alt="Portfolio 1">
+                <a class="portfolio-card__link" href="#">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio-card">
+                <img class="portfolio-card__img" src="img/portfolio/portfolio-02.jpg" alt="Portfolio 2">
+                <a class="portfolio-card__link" href="#">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio-card">
+                <img class="portfolio-card__img" src="img/portfolio/portfolio-03.jpg" alt="Portfolio 3">
+                <a class="portfolio-card__link" href="#">Braun Landing Page - Concept</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- :: Footer -->
+    <footer class="footer " id="footer">
+        <div class="container">
+
+            <h2 class="footer-title">Contacts</h2>
+
+            <p class="footer-description">Want to know more or just chat?<br>You are welcome!</p>
+
+            <a class="footer-button" href="#">Send message</a>
+
+            <div class="footer-socials">
+                <img class="footer-socials__item" src="img/socials/socials-01.svg" alt="LinkedIn">
+                <img class="footer-socials__item" src="img/socials/socials-02.svg" alt="Instagram">
+                <img class="footer-socials__item" src="img/socials/socials-03.svg" alt="Behance">
+                <img class="footer-socials__item" src="img/socials/socials-04.svg" alt="Dribble">
+            </div>
+
+            <p class="footer-copyright">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
+
+</body>
+</html>
