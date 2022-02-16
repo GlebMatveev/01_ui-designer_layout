@@ -144,6 +144,7 @@ p {
 
 .about-description {
   margin-bottom: 107px;
+  max-width: 485px;
 }
 
 .about-description__item {
@@ -431,6 +432,12 @@ p {
   .header-slider__mobile {
     width: 100%;
   }
+  .about-description {
+    max-width: 310px;
+  }
+  .about .br__desktop {
+    display: none;
+  }
   .skills-card__item {
     margin-bottom: 99px;
   }
@@ -483,6 +490,9 @@ p {
     display: none;
   }
   .header-slider__mobile {
+    display: none;
+  }
+  .about .br__mobile {
     display: none;
   }
 }

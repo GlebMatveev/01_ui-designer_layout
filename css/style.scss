@@ -117,6 +117,7 @@ p {
   }
   &-description {
     margin-bottom: 107px;
+    max-width: 485px;
   }
   &-description__item {
     margin-bottom: 50px;
@@ -357,6 +358,15 @@ p {
     }
   }
 
+  .about {
+    &-description {
+      max-width: 310px;
+    }
+    .br__desktop {
+      display: none;
+    }
+  }
+
   .skills {
     &-card__item {
       margin-bottom: 99px;
@@ -416,6 +426,11 @@ p {
       display: none;
     }
     &-slider__mobile {
+      display: none;
+    }
+  }
+  .about {
+    .br__mobile {
       display: none;
     }
   }
