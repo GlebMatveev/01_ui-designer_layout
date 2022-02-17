@@ -351,6 +351,10 @@ p {
 }
 
 @media (max-width: 425px) {
+  html {
+    padding-top: 0;
+  }
+
   .header {
     &-menu {
       display: none;
