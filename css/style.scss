@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  padding-top: 86px;
+}
+
 body {
   font-family: "Gilroy-Regular";
 }
@@ -39,10 +44,21 @@ p {
 /* :: Header */
 .header {
   &-menu {
-    padding: 32px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-left: calc((100vw - 940px) / 2);
+    padding-right: calc((100vw - 940px) / 2);
+
+    background: #fff;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    z-index: 2;
   }
   &-menu__item {
     font-family: "Gilroy-Bold";
@@ -53,6 +69,10 @@ p {
   }
   &-menu__item:hover {
     color: #070707;
+  }
+  &-menu__item:target {
+    color: red;
+    background: red;
   }
   &-menu__item_active {
     color: #070707;
@@ -314,6 +334,13 @@ p {
 @media (max-width: 768px) {
   .container {
     padding: 0 30px;
+  }
+
+  .header {
+    &-menu {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
   }
 
   .skills {
