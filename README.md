@@ -2,6 +2,6 @@
 
 > **education**
 
-Designer page layout
+Layout practice
 
 https://glebmatveev.github.io/ui-designer_layout/
